@@ -9,7 +9,7 @@
 
 
 //Mjkli - room number #3
-
+//Masashi Terayayama #8
 // Mir Hassan Talpur #17
 // Amado Rodriguez III #21
 // Ivan Khaffaji Room #15
@@ -796,13 +796,14 @@ void main(void)
 						}
 						break;
 					case 3:
+					default:
 						puts("You open the door and enter the new room. Hmm, the floor is slippery.\n");
 						puts("You look around, there are a lot of doors. Wait, this rooms looks familiar!\n");
 						puts("As suspected, water starts rushing into the room!\n");
 						puts("Choose a room again!\n");
 						scanf("%d", &choice);
+						break;
 				}
-				//scanf("%d", &choice);
 			}
 			break;
 		}
